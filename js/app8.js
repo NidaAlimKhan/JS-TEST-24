@@ -1,5 +1,3 @@
-// TASK //
-
 function angles(angle) {
     if (angle > 0 && angle < 90) {
         return "Acute Angle";
@@ -14,12 +12,8 @@ function angles(angle) {
     }
 }
 
-// DOING THE FUNCTION //
-
 console.log(angles(45));  
 console.log(angles(90));  
 console.log(angles(120)); 
 console.log(angles(180)); 
 console.log(angles(200));  
-
-// ------ //

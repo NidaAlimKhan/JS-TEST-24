@@ -1,4 +1,3 @@
-// TASK //
 
 function palindrome(string) {
     string = string.toLowerCase();
@@ -7,12 +6,9 @@ function palindrome(string) {
     return string === reversedstring;
 }
 
-// DOING THE FUNCTION //
 
 console.log(palindrome("Mercedes"));
 console.log(palindrome("HelloWorld"));
 console.log(palindrome("Did you saw something?"));
 console.log(palindrome("Did you have my car key?"));
 console.log(palindrome("That is my favourite car!"));
-
-// --------- //

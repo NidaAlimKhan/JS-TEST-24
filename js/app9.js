@@ -1,12 +1,9 @@
-// TASK //
-
 function smallestNumber(value) {
     let numString = value.toString();
     let lastIndex = numString.length - 1;
     let numZero = 0;
     while (lastIndex >= 0 && numString[lastIndex] === '0') {
-        numZero++;
-        lastIndex--;
+        numZero++; lastIndex--;
     }
     if (numZero === numString.length) {
         return value;
@@ -16,8 +13,6 @@ function smallestNumber(value) {
     }
 }
 
-// DOING THE FUNCTION //
-
 console.log(smallestNumber(592)); 
 console.log(smallestNumber(590)); 
 console.log(smallestNumber(600));
@@ -25,4 +20,3 @@ console.log(smallestNumber(605));
 console.log(smallestNumber(1000)); 
 console.log(smallestNumber(123456)); 
 
-// ------- //
